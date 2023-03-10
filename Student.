@@ -1,0 +1,34 @@
+package slide4_exercises;
+
+public class student {
+	
+	private String name;
+	private int Id;
+	private double CGPA;
+
+	public static void main(String[] args) {
+		
+		student Std1=new student();
+		student Std2=new student();
+		
+		Std1.name="Albert Einstien";
+		Std1.Id=248751;
+		Std1.CGPA=3.10;
+		
+		Std2.name="Isaac Newton";
+		Std2.Id=52472;
+		Std2.CGPA=3.87;
+		
+		System.out.println("Student 1 info: ");
+		System.out.println("Name: "+Std1.name);
+		System.out.println("Id: "+Std1.Id);
+		System.out.println("CGPA: "+Std1.CGPA);
+		
+		System.out.println("\nStudent 2 info: ");
+		System.out.println("Name: "+Std2.name);
+		System.out.println("Id: "+Std2.Id);
+		System.out.println("CGPA: "+Std2.CGPA);
+
+	}
+
+}
