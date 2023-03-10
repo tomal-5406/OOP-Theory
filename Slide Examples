@@ -1,1 +1,21 @@
+package slide4_exercises;
+
+public class Box {
+	
+	int height;
+	int width;
+
+	public static void main(String[] args) {
+		
+		Box Box1=new Box();
+				
+		Box1.height=20;
+		Box1.width=30;
+		
+		System.out.println("The height of Box1 is :"+Box1.height);
+		System.out.println("The width of Box1 is: "+Box1.width);
+
+	}
+
+}
 
