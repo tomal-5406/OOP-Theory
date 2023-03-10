@@ -1,0 +1,37 @@
+package slide4_exercises;
+
+public class Department {
+	
+	private String deptName;
+	private int deptCode;
+	private String faculty;
+	
+
+	public static void main(String[] args) {
+		
+		Department dept1=new Department();
+		Department dept2=new Department();
+		
+		dept1.deptName="CSE";
+		dept2.deptName="SWE";
+		
+		dept1.deptCode=213;
+		dept2.deptCode=214;
+		
+		dept1.faculty="FSIT";
+		dept2.faculty="FSIT";
+		
+		System.out.println("Department 1 info:");
+		System.out.println("Name: "+dept1.deptName);
+		System.out.println("Code: "+dept1.deptCode);
+		System.out.println("Faculty: "+dept1.faculty);
+		
+		System.out.println("\nDepartment 2 info:");
+		System.out.println("Name: "+dept2.deptName);
+		System.out.println("Code: "+dept2.deptCode);
+		System.out.println("Faculty: "+dept2.faculty);
+
+
+	}
+
+}
