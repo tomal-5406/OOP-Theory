@@ -1,0 +1,30 @@
+package slide4_exercises;
+
+public class Person {
+	
+  String name;
+  int age;
+
+	public static void main(String[] args) {
+		Person p1=new Person();
+		Person p2=new Person();
+		
+		p1.name="Tomal Ahmed";
+		p1.age=23;
+		
+		p2.name="Nikola Tesla";
+		p2.age=136;
+		
+		System.out.println("Person 1 info: ");
+		System.out.println("Name: "+p1.name);
+		System.out.println("Age: "+p1.age);
+		
+		System.out.println("\nPerson 2 info: ");
+		System.out.println("Name: "+p2.name);
+		System.out.println("Age: "+p2.age);
+		
+		
+
+	}
+
+}
