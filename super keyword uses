@@ -1,0 +1,37 @@
+public class Vehicle{
+  int speed=50;
+  
+  public Vehicle(String color){
+  System.out.println("Vehicle is created with color: "+color);
+  }
+  
+  public void display(){
+  System.out.println("The Vehicle Speed is: "+speed);
+    }
+  }
+  
+  public class Car extends Vehicle{
+    int speed=100;
+    
+ public car(){
+    super("Red");
+     System.out.println("Car is Created");
+      
+      }
+      
+  public void display(){
+  
+  super.display();
+  System.out.println("Vehicla speed is: "+super.speed);
+  System.out.println("Car speed is:"+speed);
+   }    
+   
+public static void main(String[]args){
+
+car c1=new car();
+c1.display(); 
+
+}
+  }
+   
+   
